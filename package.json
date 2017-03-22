@@ -1,6 +1,6 @@
 {
-  "name": "analytics-components",
-  "version": "1.0.0",
+  "name": "@comparaonline/analytics-components",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "dependencies": {
@@ -37,7 +37,8 @@
     "test": "jest",
     "pretest": "npm run lint",
     "prebuild": "npm run test",
-    "build": "webpack --color"
+    "build": "webpack --color",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
