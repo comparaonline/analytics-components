@@ -1,6 +1,7 @@
 const webpack = require('webpack');
 const WebpackCleanupPlugin = require('webpack-cleanup-plugin');
-const packageData = require('./package.json');
+
+const name = 'analytics-components';
 
 const config = {
   context: __dirname,
@@ -8,8 +9,8 @@ const config = {
   devtool: 'source-map',
   output: {
     path: './dist',
-    filename: `${packageData.name}.min.js`,
-    library: packageData.name,
+    filename: `${name}.min.js`,
+    library: name,
     libraryTarget: 'umd',
     umdNamedDefine: true
   },
