@@ -1,0 +1,8 @@
+machine:
+  node:
+    version: 6.9
+deployment:
+  production:
+    branch: master
+    commands:
+      - yarn install
