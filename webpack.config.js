@@ -1,4 +1,5 @@
 const webpack = require('webpack');
+const path = require('path');
 const WebpackCleanupPlugin = require('webpack-cleanup-plugin');
 
 const name = 'analytics-components';
@@ -8,7 +9,7 @@ const config = {
   entry: './src/index.js',
   devtool: 'source-map',
   output: {
-    path: './dist',
+    path: path.resolve(__dirname, 'dist'),
     filename: `${name}.min.js`,
     library: name,
     libraryTarget: 'umd',
