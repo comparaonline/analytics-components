@@ -5,8 +5,16 @@ Components to register third party libraries like Google Tag Manager or Amplitud
 
 # Installation
 
+## NPM
+
 ```
-$ npm install --save comparaonline/analytics-components
+$ npm install --save @comparaonline/analytics-components
+```
+
+## Yarn
+
+```
+$ yarn add @comparaonline/analytics-components
 ```
 
 # Usage
