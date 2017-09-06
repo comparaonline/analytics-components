@@ -1,5 +1,6 @@
 import gtmParts from 'react-google-tag-manager';
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 class GoogleTagManager extends Component {
   componentDidMount() {
