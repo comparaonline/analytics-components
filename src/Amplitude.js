@@ -1,6 +1,7 @@
 import { Component, PropTypes } from 'react';
 import amplitude from './scripts/amplitude';
 
+/* eslint-disable class-methods-use-this */
 class Amplitude extends Component {
   componentDidMount() {
     if (!window.amplitude) {
