@@ -12,7 +12,7 @@ const config = {
     path: path.resolve(__dirname, 'dist'),
     filename: `${name}.min.js`,
     library: name,
-    libraryTarget: 'umd',
+    libraryTarget: 'commonjs2',
     umdNamedDefine: true
   },
   module: {
