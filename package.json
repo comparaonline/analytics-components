@@ -1,6 +1,6 @@
 {
   "name": "@comparaonline/analytics-components",
-  "version": "1.1.3",
+  "version": "1.2.0",
   "description": "",
   "main": "index.js",
   "dependencies": {
@@ -29,8 +29,8 @@
   },
   "peerDependencies": {
     "prop-types": "^15.5.10",
-    "react": "^15.4.2 || ^16",
-    "react-dom": "^15.4.2 || ^16"
+    "react": "^16",
+    "react-dom": "^16"
   },
   "scripts": {
     "lint": "eslint ./src",
@@ -45,8 +45,7 @@
   },
   "keywords": [
     "react",
-    "google tag manager",
-    "amplitude"
+    "google tag manager"    
   ],
   "author": "ComparaOnline.com",
   "license": "ISC",
